@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: ghcr.io/hamidrezaramezani/hello-devops:first-build-pending
+          image: ghcr.io/hamidrezaramezani/hello-devops:d1631bc8679a83a0088f59797125ca6e65cee4e4
           ports:
             - containerPort: 8000
           readinessProbe:
