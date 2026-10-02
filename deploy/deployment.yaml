@@ -19,11 +19,11 @@ spec:
             - containerPort: 8000
           readinessProbe:
             httpGet:
-              path: /nope
+              path: /healthz
               port: 8000
           livenessProbe:
             httpGet:
-              path: /nope
+              path: /healthz
               port: 8000
           resources:
             requests:
