@@ -13,4 +13,4 @@ def healthz():
 
 @app.get("/")
 def hello():
-    return {"message": "Hello from hello-devops", "version": VERSION}
+    return {"message": "Hello from hello-devops v2", "version": VERSION}
